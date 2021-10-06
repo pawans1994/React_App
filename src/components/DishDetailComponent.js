@@ -3,11 +3,6 @@ import { Card, CardImg, CardText, CardBody, CardTitle, List } from 'reactstrap';
 
 class DishDetail extends Component{
 
-    constructor(props){
-        super(props);    
-    }
-    
-
     componentDidMount(){
         console.log(this.props.selectedDish);
     }
